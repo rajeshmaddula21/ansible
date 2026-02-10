@@ -1,0 +1,25 @@
+- name: "Rajesh Ma"
+  dob: "1992-01-23"
+  mobilNumber: 23144
+  address:
+  - FlatNumber: 240
+    street: "Kondapur"
+    cirt: "Hyderabad"
+    type: "current"
+  - FlatNumber: 240
+    street: "Kondapur"
+    cirt: "Hyderabad"
+    type: "perm"
+
+- name: "Dave Ma"
+  dob: "1992-01-23"
+  mobilNumber: 23144
+  address:
+  - FlatNumber: 240
+    street: "Kondapur"
+    cirt: "Hyderabad"
+    type: "current"
+  - FlatNumber: 240
+    street: "Kondapur"
+    cirt: "Hyderabad"
+    type: "perm"

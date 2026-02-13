@@ -1,5 +1,25 @@
 {
-    "firstName": "Rajesh Ma",
+    "students": [
+        {
+            "firstName": "Rajesh Ma",
+            "dob": "1990-02-08",
+
+    "address": [
+        {
+            "type": "perm",
+            "flatNumber": 240,
+            "stree": "Oxford Street"
+        },
+        {
+            "type": "perm",
+            "flatNumber": 240,
+            "stree": "Oxford Street"
+        }
+    ],
+    "skills": ["java", "devops", "cloud"]
+        },
+        {
+            "firstName": "Ramesh Ma",
     "dob": "1990-02-08",
 
     "address": [
@@ -15,5 +35,9 @@
         }
     ],
     "skills": ["java", "devops", "cloud"]
+        }
+
+    ]
+    
 
 }

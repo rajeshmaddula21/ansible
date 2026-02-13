@@ -39,5 +39,5 @@
 
   - name: convert list to map
     ansible.builtin.debug:
-     msg: "{{ tagslsit | items2dic }}"
+     msg: "{{ tagslist | items2dic }}"
     

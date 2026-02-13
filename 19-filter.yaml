@@ -3,10 +3,26 @@
   connection: local
   vars:
    topics: linux, shell, ansible, terraform
-   tags:
+   tagsmap:
     name: ansible
     project: roboshop
     component: catalogue
+   tagslist:
+    [
+        {
+            "key": "name",
+            "value": "ansible"
+        },
+        {
+            "key": "project",
+            "value": "roboshop"
+        },
+        {
+            "key": "component",
+            "value": "catalogue"
+        }
+    ] 
+    
 
   tasks:
   - name: greeting
@@ -19,4 +35,9 @@
 
   -  name: convert map to dictonary
      ansible.builtin.debug:
-      msg: "{{ tags | dict2items }}"
+      msg: "{{ tagsmap | dict2items }}"
+
+  - name: convert list to map
+    ansible.builtin.debug:
+     msg: "{{ tagslsit | items2dic }}"
+    
